@@ -7,7 +7,7 @@ import { blogPosts } from "@/data/blogPosts";
 export default function Blog() {
   return (
     <>
-      <PageHero title="Blog" subtitle="Insights and information on peptide science, research practices, and laboratory guidance." breadcrumb={<Link to="/" className="hover:text-teal-600">Home</Link>} />
+      <PageHero title="Research Peptide Blog | Bio Pulse Ireland" subtitle="Insights and information about research peptides, peptide science and research compounds." breadcrumb={<Link to="/" className="hover:text-teal-600">Home</Link>} />
       <section className="py-16 lg:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
