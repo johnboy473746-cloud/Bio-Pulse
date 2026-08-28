@@ -52,8 +52,8 @@ export default function BlogPost() {
           </div>
           <div className="mt-12 pt-8 border-t border-slate-200">
             <div className="bg-teal-50 rounded-2xl p-8 text-center">
-              <h3 className="text-xl font-bold text-slate-900 mb-3">Have questions about our research products?</h3>
-              <p className="text-slate-600 mb-6">Our team is available via WhatsApp to help with product information and research guidance.</p>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Have questions about our products?</h3>
+              <p className="text-slate-600 mb-6">Our team is available via WhatsApp to answer questions about our products and orders.</p>
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-teal-600 text-white font-semibold px-6 py-3 rounded-xl hover:bg-teal-700 transition-colors">
                 <MessageCircle size={20} />Contact Us
               </a>
