@@ -21,7 +21,7 @@ const NOTES = [
 export default function HowToOrder() {
   return (
     <>
-      <PageHero title="How to Order" subtitle="Placing an order with Bio Pulse is simple, fast, and personal." breadcrumb={<Link to="/" className="hover:text-teal-600">Home</Link>} />
+      <PageHero title="How to Order Research Peptides in Ireland" subtitle="Learn how to order research peptides from Bio Pulse Ireland with a simple, fast and personal ordering process." breadcrumb={<Link to="/" className="hover:text-teal-600">Home</Link>} />
       <section className="py-16 lg:py-24 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-6">
