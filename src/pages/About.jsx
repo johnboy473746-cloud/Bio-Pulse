@@ -13,7 +13,7 @@ const VALUES = [
 export default function About() {
   return (
     <>
-      <PageHero title="About Bio Pulse" subtitle="Ireland's trusted supplier of research-grade peptides and laboratory supplies." breadcrumb={<Link to="/" className="hover:text-teal-600">Home</Link>} />
+      <PageHero title="About Bio Pulse Ireland" subtitle="Learn about Bio Pulse, a supplier of research peptides in Ireland." breadcrumb={<Link to="/" className="hover:text-teal-600">Home</Link>} />
       <section className="py-16 lg:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
