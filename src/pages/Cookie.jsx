@@ -2,7 +2,7 @@ import React from "react";
 import LegalLayout from "@/components/LegalLayout";
 export default function Cookie() {
   return (
-    <LegalLayout title="Cookie Policy" lastUpdated="January 2025">
+    <LegalLayout title="Cookie Policy" lastUpdated="August 2026">
       <p>This Cookie Policy explains how Bio Pulse uses cookies and similar technologies on our website.</p>
       <h2 className="text-xl font-bold text-slate-900 pt-4">1. What Are Cookies?</h2>
       <p>Cookies are small text files placed on your device by websites you visit. They are widely used to make websites work more efficiently.</p>
