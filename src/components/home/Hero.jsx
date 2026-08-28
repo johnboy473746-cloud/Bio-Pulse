@@ -14,10 +14,11 @@ export default function Hero() {
               FOR RESEARCH USE ONLY · IRELAND
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-[1.05] tracking-tight">
-              Premium Research Peptides. <span className="text-teal-600">Trusted Quality.</span>
+  Research Peptides Ireland. <span className="text-teal-600">Trusted Quality.</span>
+</h1>
             </h1>
             <p className="text-lg text-slate-600 mt-6 max-w-xl leading-relaxed">
-              Ireland's trusted supplier of research-grade peptides and laboratory supplies. Research-grade quality, fast shipping, and professional service — delivered across Ireland and Europe.
+              Ireland's trusted supplier of research-grade peptides. Fast shipping, and professional service — delivered across Ireland and Europe.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-teal-600 text-white font-semibold px-7 py-3.5 rounded-xl hover:bg-teal-700 transition-colors text-base">
