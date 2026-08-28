@@ -2,7 +2,7 @@ import React from "react";
 import LegalLayout from "@/components/LegalLayout";
 export default function Privacy() {
   return (
-    <LegalLayout title="Privacy Policy" lastUpdated="January 2025">
+    <LegalLayout title="Privacy Policy" lastUpdated="August 2026">
       <p>At Bio Pulse, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your personal information.</p>
       <h2 className="text-xl font-bold text-slate-900 pt-4">1. Information We Collect</h2>
       <p>We may collect contact information such as your name, email address, and phone number when you place an order or contact us, along with order details and delivery address.</p>
