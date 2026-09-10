@@ -14,7 +14,7 @@ export default function Layout({ children }) {
     ["/blog", "Blog"]
   ];
   return <div className="site-shell">
-    <div className="topbar"><div className="container topbar-inner"><span>🇮🇪 Ireland-based · Research & laboratory products</span><span>Research use only</span></div></div>
+    <div className="topbar"><div className="container topbar-inner"><span>⚠️ RESEARCH USE ONLY — NOT FOR HUMAN CONSUMPTION</span><span>🇮🇪 Ireland-based · Research & laboratory products</span></div></div>Research use only</span></div></div>
     <header className="header">
       <div className="container nav-wrap">
         <Link to="/" className="brand" onClick={() => setOpen(false)}>
