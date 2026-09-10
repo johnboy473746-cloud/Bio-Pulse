@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import { Menu, X, MessageCircle, FlaskConical } from "lucide-react";
+import { Menu, X, MessageCircle, FlaskConical, ShoppingCart } from "lucide-react";
 import { useState } from "react";
 import { WHATSAPP_URL, EMAIL } from "../data/site";
 
@@ -14,7 +14,7 @@ export default function Layout({ children }) {
     ["/blog", "Blog"]
   ];
   return <div className="site-shell">
-    <div className="topbar"><div className="container topbar-inner"><span>⚠️ RESEARCH USE ONLY — NOT FOR HUMAN CONSUMPTION</span><span>🇮🇪 Ireland-based · Research & laboratory products</span></div></div>Research use only</span></div></div>
+    <div className="topbar"><div className="container topbar-inner"><span>⚠️ RESEARCH USE ONLY — NOT FOR HUMAN CONSUMPTION</span><span>🇮🇪 Ireland-based · Research & laboratory products</span></div></div>
     <header className="header">
       <div className="container nav-wrap">
         <Link to="/" className="brand" onClick={() => setOpen(false)}>
@@ -29,6 +29,12 @@ export default function Layout({ children }) {
       </div>
     </header>
     <main>{children}</main>
+
+    <a className="floating-order" href={WHATSAPP_URL} target="_blank" rel="noreferrer" aria-label="Order now on WhatsApp">
+      <div className="floating-order-icon"><ShoppingCart size={22}/></div>
+      <div><strong>Order Now</strong><span>via WhatsApp</span></div>
+    </a>
+
     <footer className="footer">
       <div className="container footer-grid">
         <div><Link to="/" className="brand footer-brand"><span className="brand-mark"><FlaskConical size={22}/></span><span><strong>Bio Pulse</strong><small>Research & Laboratory</small></span></Link><p>Research-focused peptide and laboratory product information for legitimate scientific research.</p></div>
