@@ -1,5 +1,5 @@
 export const WHATSAPP_NUMBER = "085 204 3438";
-export const WHATSAPP_URL = "https://wa.me/353852043438?text=Hi%2C%20I%20want%20to%20place%20an%20order.";
+export const WHATSAPP_URL = "https://wa.me/353852043438";
 export const EMAIL = "biopulsesupport@protonmail.com";
 export const SITE_URL = "https://biopulse.ie/";
 
